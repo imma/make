@@ -6,7 +6,9 @@ function _make_profile {
   #export ANSIBLE_ROLES_PATH="$shome/roles${ANSIBLE_ROLES_PATH:+:${ANSIBLE_ROLES_PATH}}"
   #export ANSIBLE_LIBRARY="$shome/library${ANSIBLE_LIBRARY:+:${ANSIBLE_LIBRARY}}"
 
-  MAKE_VERSION='0.0.1'
+  GMSL_VERSION='1.1.7'
+  
+  export GMSL="$_make_home"
 }
 
 _make_profile
